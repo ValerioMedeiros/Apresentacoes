@@ -1,3 +1,8 @@
+# Apresentação em Nova Cruz 2018
+A página pode ser visualizada em: http://htmlpreview.github.io/?https://github.com/ValerioMedeiros/Apresentacoes/blob/master/index.html#/
+
+
+
 # reveal.js
 
 A framework for easily creating beautiful presentations using HTML. [Check out the live demo](http://lab.hakim.se/reveal-js/).
