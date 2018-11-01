@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<!--Aqui muda a cor do fundo-->
+		<link rel="stylesheet" href="css/theme/beige.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<section>
+					<br><br><br>
+					<h1>A internet das coisas e o projeto Dígitu</h1>
+				
+					<h3>Software para automação de salas com autenticação biométrica</h3>
+					<section>
+					<br><br><br>
+					<h2>Componentes do projeto:</h2>
+					<ul>
+						<li>Discente: Breno Ferreira</li>
+						<li>Discente: Daiane Souza</li>
+						<li>Discente: Emanuele Ferreira</li>
+						<li>Discente: Josinaldo Sobrinho</li>
+						<li>Docente: Valério Gutemberg</li>
+						<li>Discente: Wallysson Lima</li>
+						<li>Discente: Wygna Yngrid</li>
+					</ul>
+				</section>
+				</section>
+
+				<section>
+					<h2>(SUMÁRIO)</h2>
+					<p> (ITEM DO SUMÁRIO)</p>
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<h2>COMO SURGIU O DIGITU?</h2>
+						<p> O Digitu surgiu pensando a partir de três pontos. <a href="#/2/1"></a>.</p>
+					</section>
+					<section>
+						<h2>SEGURANÇA </h2>
+						<p>Texto sobre segurança</p>
+					</section>
+					<section>
+						<h2>MOBILIDADE/APLICABILIDADE</h2>
+						<p>Texto sobre Mibilidade e aplicabilidade</p>
+					</section>
+					<section>
+						<h2>VIABILIDADE</h2>
+						<p>Texto sobre viabilidade.</p>
+					</section>
+				</section>
+
+				<section>
+					<h2>OBJETIVOS</h2>
+					<p>1.Desenvolver um sistema de autenticação biométrica genérico e de baixo custo.</p>
+					<p>2.Suportar vários contextos (sistema de ponto, frequência, sala inteligente).</p>
+					<p>3.Ser conectado, moderno e competitivo.</p>
+					</p>
+				</section>
+
+				<section>
+					<h2>VISÃO GERAL</h2>
+					<p>COLOCAR AQUI UMA FOTO</p>
+				</section>
+
+				<section>
+					<h2>O QUE É DJANGO?</h2>
+					<p>TEXTO DJANGO</p>
+				</section>
+
+				<section>
+					<h2>COMPONENTES DO DJANGO</h2>
+					<ul>
+						<li>Template system</li>
+						<li>ORM –Object-Relational Mapper</li>
+						<li>URL Dispatcher</li>
+						<li>Formulário</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>TEMPLATE SYSTEM</h2>
+					<P>TEXTO TEMPLATE</P>
+				</section>
+
+				<section>
+					<h2>ORM - OBJECT-RELATIONAL MAPPE</h2>
+					<P>TEXTO ORM</P>
+				</section>
+
+				<section>
+					<h2>URL DISPATCHER</h2>
+					<P>TEXTO URL</P>
+				</section>
+
+				<section>
+					<h2>FORMULÁRIO</h2>
+					<P>TEXTO FORMULÁRIO</P>
+				</section>
+
+				<section>
+					<h2>O QUE É MVT?</h2>
+					<P>TEXTO MTV</P>
+				</section>
+
+				<section>
+					<h2>O QUE É ARDUINO?</h2>
+					<P>O Arduino é a junção de uma placa, microntrolador, software e linguagem de programação baseada em C/C++. Trabalha com o princípio da computação física, ou seja, com Software e Hardware, tendo como objetivo fazer com que seja possível o acompanhamento em tempo real da comunicação entre software e hardware, tornando assim o desenvolvimento dos protótipos mais interativo.</P>
+				</section>
+
+
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				/*AQUI TROCA A TRANSIÇÃO*/
+				transition: Reveal.getQueryHash().transition || 'concave', // default/cube/page/concave/zoom/linear/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
