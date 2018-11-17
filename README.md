@@ -1,5 +1,7 @@
-# Apresentação em Nova Cruz 2018
-A página pode ser visualizada em: http://htmlpreview.github.io/?https://github.com/ValerioMedeiros/Apresentacoes/blob/master/index.html#/
+# Apresentação em Nova Cruz 2018 
+Acesse em: https://valeriomedeiros.github.io/Apresentacoes/
+
+
 
 
 
