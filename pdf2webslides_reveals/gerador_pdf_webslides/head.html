@@ -21,6 +21,17 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+		<style>
+			.reveal .slide-background-content {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+
+				background-position: 50% 50%;
+				background-repeat: no-repeat;
+				background-size: contain;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="reveal">

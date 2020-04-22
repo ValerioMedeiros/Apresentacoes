@@ -125,6 +125,8 @@
 			Reveal.initialize({
 				hash: true,
 				dependencies: [
+					//Quiz js
+					{ src: 'https://valeriomedeiros.github.io/Apresentacoes/pdf2webslides_reveals/reveal.js/plugin/quiz/js/quiz.js', async: true, callback: function() { prepareQuizzes({}); } },
 					//plugins de audio
 					{ src: 'https://valeriomedeiros.github.io/Apresentacoes/pdf2webslides_reveals/reveal.js-plugins/audio-slideshow/RecordRTC.js', condition: function( ) { return !!document.body.classList; } },
 					{ src: 'https://valeriomedeiros.github.io/Apresentacoes/pdf2webslides_reveals/reveal.js-plugins/audio-slideshow/slideshow-recorder.js', condition: function( ) { return !!document.body.classList; } },				
