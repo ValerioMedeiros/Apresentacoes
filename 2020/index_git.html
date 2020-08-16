@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Projeto de controle de acesso</title>
+
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1200px-Git-logo.svg.png">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <!--Aqui muda a cor do fundo-->
+    <link rel="stylesheet" href="css/theme/IFRN.css" id="theme">
+
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+    <script>
+        document.write('<link rel="stylesheet" href="css/print/' + (window.location.search.match(/print-pdf/gi) ? 'pdf' : 'paper') + '.css" type="text/css" media="print">');
+    </script>
+
+    <!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+    <!-- Adiciona hora 
+    <script>
+        function startTime() {
+            var today = new Date();
+            var dia = today.getDate();
+            var mes = today.getMonth();
+            var ano = today.getFullYear();
+            var h = today.getHours();
+            var m = today.getMinutes();
+            var s = today.getSeconds();
+            m = checkTime(m);
+            s = checkTime(s);
+            document.getElementById('hora').innerHTML =
+                //h + ":" + m + ":" + s;
+                dia + "/" + mes + "/" + ano + " " + h + ":" + m;
+            var t = setTimeout(startTime, 15000);
+        }
+
+        function checkTime(i) {
+            if (i < 10) {
+                i = "0" + i
+            }; // add zero in front of numbers < 10
+            return i;
+        }
+    </script> -->
+</head>
+
+<body>
+
+    <div id="footer">
+        <div style="display : flex;">
+            <div style="flex: 15%">
+                <img src='./img/2018_IotDigitu/logo_IFRN.png' alt='Image' style='width: 15vmin;  background: none; text-shadow: none; box-shadow: none; border: none;' />
+            </div>
+            <div style="flex: 85%; font-family: Quicksand, sans-serif;">
+                <p>
+                    * Apresentação ao público externo.
+
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="reveal">
+
+
+        <!-- Any section element inside of this container is displayed as a slide -->
+        <div class="slides">
+
+            <section>
+                <br><br><br>
+                <h2>Primeiros passos com GIT</h2>
+                
+
+                <section>
+                    <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1200px-Git-logo.svg.png' alt='Image' style='height: 20vmin; background: none; text-shadow: none; box-shadow: none; border: none;' />
+                    <!-- Adiciona hora 
+                    <h4 id="hora"></h4> -->
+                    
+                    <div class="row">
+                        <div class="column">
+                            <ul>
+                                
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <ul>
+                                <li>Docente: Valério Gutemberg</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                </section>
+            </section>
+
+<!--            <section>
+                <h2>Roteiro</h2>
+                <p></p>
+                <br>
+
+                <div style="display : flex;">
+                    <div style="flex: 55%">
+                        <br><br>
+                        <ol>
+                            <li> Visão geral da Internet das Coisas (IoT) </li><br>
+                            <li> Tendências do Mercado</li><br>
+                            <li> Aplicações IoT</li><br>
+                            
+                            
+                            
+                            
+                            <li> Projeto Digitu</li><br>
+                            
+
+
+                            <li> Considerações finais</li>
+
+                        </ol>
+                    </div>
+                    <div style="flex: 45%">
+
+                    </div>
+                </div>
+
+            </section> -->
+
+
+
+            <section>
+                <h2>O que é o GIT?</h2>
+                <div style="display : flex;">
+                    <div style="flex: 45%">
+                        <br>
+                            <p>É um sistema de controle de versão distribuído, utilizado principalmente no desenvolvimento de software
+                                (Desenvolvido por Linus Torvalds).
+                            </p>
+                            <br>
+                    <h4>Como instalar?</h4>
+                        <p> Veja os passos neste, <a href="https://www.hostinger.com.br/tutoriais/tutorial-do-git-basics-introducao/"> clicando aqui</a>.</p>
+                    </div>
+                    <div style="flex: 55%">
+                        <h5>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1200px-Git-logo.svg.png" style='height: 40vmin;  '>
+                        </h5>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h1>Roteiro:</h1>
+                <ul>
+                    <li>Como criar um repositório?</li>
+                    <li>Como obter um repositório remoto?</li>
+                    <li>Como funciona o fluxo de trabalho?</li> <!-- ver as duas figuras -->
+                    <li>Como funciona adicionar arquivo ao controle e confirmar?</li>
+                    <li>Como enviar informações ao repositório remoto?</li> 
+                    <li>O que são as ramificações?</li>
+                    <li>Como atualizar dados locais? Como mesclar?</li>
+                    <ul>
+                        <li>O que é o comando git pull(rebase)?</li>
+                    </ul>
+
+                    
+                </ul>
+            </section>
+
+         
+
+
+
+        </div>
+
+    </div>
+
+    <script src="lib/js/head.min.js "></script>
+    <script src="js/reveal.min.js "></script>
+
+    <script>
+        // Full list of configuration options available here:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            slideNumber: true,
+            theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+            /*AQUI TROCA A TRANSIÇÃO*/
+            transition: Reveal.getQueryHash().transition || 'concave', // default/cube/page/concave/zoom/linear/none
+
+            // Optional libraries used to extend on reveal.js
+            dependencies: [{
+                src: 'lib/js/classList.js',
+                condition: function() {
+                    return !document.body.classList;
+                }
+            }, {
+                src: 'plugin/markdown/showdown.js',
+                condition: function() {
+                    return !!document.querySelector('[data-markdown]');
+                }
+            }, {
+                src: 'plugin/markdown/markdown.js',
+                condition: function() {
+                    return !!document.querySelector('[data-markdown]');
+                }
+            }, {
+                src: 'plugin/highlight/highlight.js',
+                async: true,
+                callback: function() {
+                    hljs.initHighlightingOnLoad();
+                }
+            }, {
+                src: 'plugin/zoom-js/zoom.js',
+                async: true,
+                condition: function() {
+                    return !!document.body.classList;
+                }
+            }, {
+                src: 'plugin/notes/notes.js',
+                async: true,
+                condition: function() {
+                    return !!document.body.classList;
+                }
+            }]
+        });
+    </script>
+
+</body>
+
+</html>
