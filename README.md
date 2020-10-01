@@ -1,7 +1,8 @@
 # Geral
-Acesse em: https://valeriomedeiros.github.io/Apresentacoes/
-[Apresentação em Nova Cruz 2018](https://valeriomedeiros.github.io/Apresentacoes/2019)
-[Apresentação em Prog. Distribuida 2019](https://valeriomedeiros.github.io/Apresentacoes/2019/2019_ProgDist1.html)
+* Acesse em: https://valeriomedeiros.github.io/Apresentacoes/
+
+* [Apresentação em Nova Cruz 2018](https://valeriomedeiros.github.io/Apresentacoes/2019)
+* [Apresentação em Prog. Distribuida 2019](https://valeriomedeiros.github.io/Apresentacoes/2019/2019_ProgDist1.html)
 
 
 
